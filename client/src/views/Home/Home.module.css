@@ -1,0 +1,68 @@
+.containerHome{
+  background-image: url("../../assets/Background.png");
+  background-size:100%;  
+}
+
+
+
+.cardTas {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 18px;
+    margin: 30px; */
+}
+
+.allOrder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.buttonR{
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonR button{
+    padding: 12px 20px;
+    color: #fff;
+    background-color: black;
+    border: solid 1.5px white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.buttonR button a{
+    color:#fff
+}
+
+.buttonR button:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .allOrder select {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+  }

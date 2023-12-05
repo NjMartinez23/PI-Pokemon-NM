@@ -1,0 +1,48 @@
+/* Estilos en línea específicos para el formulario*/
+.formBack{
+  background-image: url('../../assets/Background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color:blanchedalmond;
+  width: 100vw;
+  height: 100vh;
+}
+
+.formStyles{
+  margin: '20px';
+  padding: '20px';
+  border: '1px solid gray';
+  border-radius: 5px;
+ 
+};
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* justify-content: right; */
+  gap: 6px;
+  margin: 12px;
+}
+
+.searchInput input {
+  padding: 6px;
+  border-radius: 5px;
+  border:solid 1px #4cd925
+}
+
+.searchInput button {
+  padding: 10px;
+  background-color: #4cd925;
+  color: white;
+  border-radius: 5px;
+  align-self: center; /* Agrega esta línea para alinear verticalmente el botón */
+  cursor: pointer;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.searchInput button:hover {
+  background-color: #dacb94;
+  border: solid 1.5px black;
+}

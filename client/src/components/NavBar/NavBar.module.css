@@ -1,0 +1,29 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 60px;
+    padding: 0 20px;
+
+  }
+  
+.container img{
+  width: 100px;
+
+}
+
+  .navbarlink {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbarlink:hover {
+    background-color: #555;
+    border: solid 1px white;
+  }

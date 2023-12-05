@@ -1,0 +1,9 @@
+.cardsContainer{
+    display:flex; /*horizontal */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 28px;
+    background-color: black;
+}

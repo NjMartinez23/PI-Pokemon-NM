@@ -1,0 +1,22 @@
+.paginate {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 20px 0;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.paginate button {
+  background-color: white;
+  color: red;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.paginate button:hover {
+  background-color:red;
+  color: white;
+}

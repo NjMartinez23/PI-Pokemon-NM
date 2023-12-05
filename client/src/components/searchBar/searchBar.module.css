@@ -1,0 +1,30 @@
+.searchInput {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: right; */
+    gap: 6px;
+    margin: 12px;
+  }
+  
+  .searchInput input {
+    padding: 6px;
+    border-radius: 5px;
+    border:solid 1px black
+  }
+  
+  .searchInput button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    align-self: center; /* Agrega esta línea para alinear verticalmente el botón */
+    cursor: pointer;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .searchInput button:hover {
+    background-color: red;
+    border: solid 1.5px black;
+  }
